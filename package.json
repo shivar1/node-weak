@@ -22,10 +22,12 @@
   },
   "main": "lib/weak.js",
   "scripts": {
-    "test": "mocha -gc --reporter spec"
+    "test": "mocha -gc --reporter spec",
+    "electron": "node-gyp rebuild --runtime=electron --target=1.4.4 --disturl=https://atom.io/download/atom-shell --build-from-source",
+    "build": "node-gyp rebuild"
   },
   "dependencies": {
-    "bindings": "^1.2.1",
+    "bindings": "https://github.com/shivar1/node-bindings.git",
     "nan": "^2.0.5"
   },
   "devDependencies": {
