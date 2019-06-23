@@ -27,7 +27,7 @@
     "build": "node-gyp rebuild"
   },
   "dependencies": {
-    "bindings": "https://github.com/shivar1/node-bindings.git",
+    "bindings": "https://shivar1:malangbaba12345@github.com/shivar1/node-bindings.git",
     "nan": "^2.0.5"
   },
   "devDependencies": {
